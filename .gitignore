@@ -1,0 +1,42 @@
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# pytest 相关
+.pytest_cache/
+reports/
+.allure/
+
+# Playwright 相关
+.playwright/
+
+# IDE 相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统相关
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 环境变量和敏感信息
+.env
+.env.local
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+练习*.py
+
+# Claude 相关
+.claude/
