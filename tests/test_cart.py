@@ -1,15 +1,6 @@
 import pytest
-from pages.login_page import LoginPage
 from pages.cart_page import CartPage
 from pages.checkout_page import CheckoutPage
-
-# 每个用例都需要先登录，用 fixture 搞定
-@pytest.fixture
-def logged_in(page):
-    login = LoginPage(page)
-    login.navigate()
-    login.login("standard_user", "secret_sauce")
-    return page
 
 def test_add_to_cart_badge(logged_in):
     """加购后购物车数字变成 1"""

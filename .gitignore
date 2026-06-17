@@ -37,6 +37,9 @@ desktop.ini
 *.tmp
 *.temp
 练习*.py
+学习指南.md
+指导.md
+*.png
 
 # Claude 相关
 .claude/
