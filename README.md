@@ -49,3 +49,4 @@ Allure 报告：
 pytest tests/ -v --alluredir=reports/allure-results
 allure serve reports/allure-results
 ```
+![alt text](image-1.png)
