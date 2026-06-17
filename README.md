@@ -1,6 +1,6 @@
 # SauceDemo 自动化测试项目
 
-用 Playwright + pytest 写的一个自动化测试练习项目，测试对象是 SauceDemo（一个公开的电商演示网站：https://www.saucedemo.com）。覆盖了登录、购物车、结算这几个核心流程。
+用 Playwright + pytest 写的一个自动化测试练习项目，测试对象是 SauceDemo（一个公开的电商演示网站https://www.saucedemo.com）。覆盖了登录、购物车、结算这几个核心流程。
 
 ## 用了什么
 
